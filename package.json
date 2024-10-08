@@ -1,0 +1,18 @@
+{
+  "name": "data-catalog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "apps/backend/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "concurrently \"yarn workspace ms-ui-components watch\" \"yarn workspace dashboard-app dev\" \"yarn workspace client-app dev\" \"yarn workspace auth-service dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
