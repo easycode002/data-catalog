@@ -11,8 +11,5 @@ services:
     env_file: ./auth-service/src/configs/.env.development
     environment:
       - DOCKER_ENV=true
-    volumes:                          
-      - ./auth-service/src:/app/src # HOT RELOAD WHEN MADE CHANGE IN SRC DIR.
-      - volume-store:/app/storage
-volumes:
-  volume-store:
+    volumes:                          # HOT RELOAD WHEN MADE CHANGE IN SRC DIR.
+      - ./auth-service/src:/app/src
