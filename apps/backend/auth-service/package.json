@@ -5,9 +5,15 @@
   "license": "MIT",
   "scripts": {
     "tsoa:gen": "tsoa spec && tsoa routes",
-    "dev": "tsoa tsoa:gen && nodemon ./src/server.ts",
+    "dev": "yarn tsoa:gen && nodemon ./src/server.ts",
     "build": "node build-script.js",
-    "start:local": "node ./build/server.js"
+    "start": "pm2 start ecosystem.config.js",
+    "restart": "pm2 restart ecosystem.config.js",
+    "stop": "pm2 stop ecosystem.config.js",
+    "start:local": "pm2 start ecosystem.local.config.js",
+    "restart:local": "pm2 restart ecosystem.local.config.js",
+    "stop:local": "pm2 stop ecosystem.local.config.js",
+    "start:": "node ./build/server.js"
   },
   "dependencies": {
     "express": "^4.21.0",
@@ -19,6 +25,7 @@
     "@types/swagger-ui-express": "^4.1.6",
     "esbuild": "^0.24.0",
     "nodemon": "^3.1.7",
+    "pm2": "^5.4.2",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
     "tsoa": "^6.4.0",

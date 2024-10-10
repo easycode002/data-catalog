@@ -6,7 +6,8 @@ const config: Config = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     // Issue
-    "../../packages/ui-components/src/**/*.{js,ts,jsx,tsx,mdx}",
+    // "../../packages/ui-components/src/**/*.{js,ts,jsx,tsx,mdx}",
+    "../../node_modules/ms-ui-components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {

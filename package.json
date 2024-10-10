@@ -5,12 +5,13 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "apps/*",
-    "apps/backend/*",
+    "apps/**/*",
     "packages/*"
   ],
   "scripts": {
-    "start": "concurrently \"yarn workspace ms-ui-components watch\" \"yarn workspace dashboard-app dev\" \"yarn workspace client-app dev\" \"yarn workspace auth-service dev\""
+    "start": "concurrently \"yarn workspace ms-ui-components watch\" \"yarn workspace dashboard-app dev\" \"yarn workspace client-app dev\" \"yarn workspace auth-service dev\"",
+    "docker:dev": "docker-compose -f ./apps/backend/docker-compose.dev.yml up -d",
+    "docker:stop": "docker-compose -f ./apps/backend/docker-compose.dev.yml down"
   },
   "devDependencies": {
     "concurrently": "^9.0.1"

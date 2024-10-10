@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  auth:
+    container_name: auth_service_container
+    build:
+      context: ./auth-service
+      dockerfile: Dockerfile.dev
+    restart: always
+    ports:
+      - 4001:4001
+    env_file: ./auth-service/src/configs/.env.development
+    environment:
+      - DOCKER_ENV=true
+    volumes:                          # HOT RELOAD WHEN MADE CHANGE IN SRC DIR.
+      - ./auth-service/src:/app/src
