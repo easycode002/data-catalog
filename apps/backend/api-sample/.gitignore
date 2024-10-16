@@ -2,6 +2,3 @@
 node_modules
 README.md
 build
-
-./src/configs/.env.development
-./src/configs/.env.production
