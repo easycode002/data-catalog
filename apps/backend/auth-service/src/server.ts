@@ -1,9 +1,15 @@
-import app from "@/src/app"
+import app from "@/src/app";
+import configs from "@/src/config";
 
-function run() {
-   app.listen(3001, () => {
-     console.log(`User service running on: http://localhost:3000`)
-   })
+async function run() {
+  try {
+    app.listen(configs.port, () => {
+      console.log(`Auth Service running on http://localhost:${configs.port}`);
+    });
+  } catch (error) {
+    console.error("Failed to start the application:", error);
+    process.exit(1);
+  }
 }
 
 run();
