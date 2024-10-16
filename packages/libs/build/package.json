@@ -1,6 +1,6 @@
 {
   "name": "@easycode002/ms-libs",
-  "version": "0.0.5",
+  "version": "0.0.1",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
   "license": "MIT",
@@ -19,10 +19,10 @@
     "trailingComma": "es5"
   },
   "keywords": [],
-  "author": "data-catalog team",
+  "author": "sotheamab",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/easycode002/data-catalog.git"
+    "url": "git+https://github.com/easycode002/ms-api.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
