@@ -1,6 +1,6 @@
 {
   "name": "@easycode002/ms-libs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
   "license": "MIT",
