@@ -1,2 +1,5 @@
+.npmrc
+node_modules
+babel.config.json
 note.txt
-node_modules/
+build
