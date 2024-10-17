@@ -221,9 +221,9 @@ Use the following command to start all application:
 <a href="http://localhost:3000">http://localhost:3000</a>
 
 <h3>Backend</h3>
+Open your terminal and run the following command to clone the project repository:
 
 1. Clone the Repository:
-Open your terminal and run the following command to clone the project repository:
 ```sh
 git clone https://github.com/easycode002/data-catalog.git
 ```
@@ -249,7 +249,7 @@ yarn start
 
 <!-- CONTACT -->
 ## Contact
-Data Catalog<br/>
+**Data Catalog**<br/>
 Team members<br/> 
 
 sophearum14@gmail.com <br/>
