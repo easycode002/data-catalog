@@ -5,7 +5,8 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "apps/**/*",
+    "apps/*",
+    "apps/backend/*",
     "packages/*"
   ],
   "scripts": {
@@ -13,7 +14,6 @@
     "docker:dev": "docker-compose -f ./apps/backend/docker-compose.dev.yml up -d",
     "docker:local": "docker-compose -f ./apps/backend/docker-compose.local.yml up -d",
     "docker:stop": "docker-compose -f ./apps/backend/docker-compose.dev.yml down"
-
   },
   "devDependencies": {
     "concurrently": "^9.0.1"
