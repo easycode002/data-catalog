@@ -277,6 +277,9 @@ Team members<br/> vannbonath1@gmail.com <br/> nhamchamnes@gmail.com <br/> info.t
 
 Project Link: [https://github.com/sabaicode-dev/check-me](https://github.com/sabaicode-dev/check-me)
 
+
+[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
