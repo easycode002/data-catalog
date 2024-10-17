@@ -2,7 +2,7 @@
 <br/>
 <div align="center">
     <a>
-        <img src="https://github.com/easycode002/data-catalog/blob/main/apps/dashboard-app/public/data-catalog-logo.png" atl="Logo" width="90" heigt="90">
+        <img src="https://github.com/easycode002/data-catalog/blob/main/apps/dashboard-app/public/data-catalog-logo.png" atl="Logo" width="80" heigt="80">
     </a>
     <h3 align="center">Data Catalog</h3>
 </div>
@@ -29,6 +29,7 @@ To simplify data management by enabling users to effortlessly import, transform,
 ### Built With
 This section we lists all library and framework that make this project
 - [![Next][Next.js]][Next-url]
+- [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 - [![Static Badge](https://img.shields.io/badge/Node.js-499442?style=for-the-badge&logo=node.js&logoColor=fff&color=499442)](https://nodejs.org/en)
 - [![Static Badge](https://img.shields.io/badge/Tyscript-3178C6?style=for-the-badge&logo=typescript&logoColor=fff&color=3178C6)](https://www.typescriptlang.org/)
 - [![Static Badge](https://img.shields.io/badge/Express.js-000?style=for-the-badge&logo=express&logoColor=fff&color=000)](https://expressjs.com/)
