@@ -38,6 +38,7 @@ This section we lists all library and framework that make this project
 
 ### Project Structure
 <p>The project follows a microservices architecture within a monorepo setup. Below is an overview of the directory structure and the purpose of each component:</p>
+
 ```bash
 Data-Catalog
 .
