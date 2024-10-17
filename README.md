@@ -19,12 +19,12 @@ Empower organizations to unlock the full potential of their data by providing a 
 ## Our mission
 To simplify data management by enabling users to effortlessly import, transform, and visualize data from various sources, facilitating insights and informed decision-making for businesses and individuals alike.
 
-<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## UI design
 - [![Static Badge](https://img.shields.io/badge/Figma-2C2D34?style=for-the-badge&logo=figma&logoColor=fff&color=%232C2D34)](https://www.figma.com/design/crMDtSSVv5vX7sIZc8jCWN/Team-Project-Check-Me?node-id=205-108&t=fR3Ai4jI02tEYQvX-0)
 
-<p align="right">(<a href="#readme-top">Back to Top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 This section we lists all library and framework that make this project
@@ -183,7 +183,7 @@ Data-Catalog
 └── yarn.lock
 ```
 
-<p align="right">(<a href="#readme-top">Back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
