@@ -250,7 +250,15 @@ yarn start
 <!-- CONTACT -->
 ## Contact
 Data Catalog<br/>
-Team members<br/> sample.email@gmail.com <br/> sample.email@gmail.com <br/>
+Team members<br/> 
+
+sophearum14@gmail.com <br/>
+winhuorhan@gmail.com <br/>
+oengzhileang@gmail.com <br/>
+roemreaksmey7@gmial.com <br/>
+etkimhong@gmail.com <br/>
+vuthysh11@gmail.com <br/>
+sotheamab002@gmail.com <br/>
 
 Project Link: [https://github.com/easycode002/data-catalog.git](https://github.com/easycode002/data-catalog.git)
 
