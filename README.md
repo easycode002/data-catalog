@@ -28,7 +28,6 @@ To simplify data management by enabling users to effortlessly import, transform,
 
 ### Built With
 This section we lists all library and framework that make this project
-- [![Next][Next.js]][Next-url]
 - [![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 - [![Static Badge](https://img.shields.io/badge/Node.js-499442?style=for-the-badge&logo=node.js&logoColor=fff&color=499442)](https://nodejs.org/en)
 - [![Static Badge](https://img.shields.io/badge/Tyscript-3178C6?style=for-the-badge&logo=typescript&logoColor=fff&color=3178C6)](https://www.typescriptlang.org/)
@@ -39,8 +38,7 @@ This section we lists all library and framework that make this project
 ### Project Structure
 <p>The project follows a microservices architecture within a monorepo setup. Below is an overview of the directory structure and the purpose of each component:</p>
 
-```bash
-Data-Catalog
+```sh
 .
 ├── apps
 │   ├── backend
@@ -121,7 +119,6 @@ Data-Catalog
 │       ├── tsconfig.json
 │       ├── tsconfig.node.json
 │       └── vite.config.ts
-├── package.json
 ├── packages
 │   ├── libs
 │   │   ├── babel.config.json
@@ -177,10 +174,11 @@ Data-Catalog
 │       ├── vite.config.ts
 │       ├── webpack.config.js
 │       └── webpack.config.ui.js
-├── README.md
 ├── scripts
 │   ├── data-catalog.pem
 │   └── setup-environment.sh
+├── README.md
+├── package.json
 └── yarn.lock
 ```
 
@@ -196,6 +194,7 @@ Then, follow these steps:
 <h3>Frontend</h3>
 Open your terminal and run the following command to clone the project repository:
 
+1. Clone the Repository:
 ```sh
 git clone https://github.com/easycode002/data-catalog.git
 ```
@@ -219,7 +218,7 @@ yarn start
 
 5. Click link in your terminal:
 Use the following command to start all application:
-<a href="http://localhost:3000/">localhost:3000</a>
+<a href="http://localhost:3000">http://localhost:3000</a>
 
 <h3>Backend</h3>
 
